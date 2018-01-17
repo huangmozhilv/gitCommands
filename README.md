@@ -21,7 +21,8 @@ $ git status # check current status
 $ git add filename
 $ git add . # add all files
 $ git commit -m "message to describe current commit"
-$ git commit -a -m "message" # short-cut to execute the two commands with one command. "-a": all.
+$ git commit -am "message" # PERFECT short-cut to execute the two commands with one command. "-a": all.
+$ git commit -a -m "message" # short-cut to execute the two commands with one command.
 $ git add . && git commit -m "message" # short-cut to combine the two commands in one command
 $ git push origin master # update everything from local to online. use "git push -u origin master" at first time as stated above.
 ```
