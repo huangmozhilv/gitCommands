@@ -9,7 +9,7 @@ Github.com [here](https://www.youtube.com/playlist?list=PLPXsMt57rLtgpwFBqZq4QKx
 $ touch README.md								# create a file called README.md where you can put instructions/info about your folder like what you are reading right now!
 $ git init 										# initialize your git repository locally
 $ git add .										# adds everything changed from local to staging
-$ git commit -m "first commit"					# commits everything in staging to be ready to be pushed to Github
+$ git commit -m "first commit"					# commits everything in staging to be ready to be pushed to Github. "-m": message
 $ git remote add origin https://github.com/quinnliu/GitCommands.git
 $ git push -u origin master						# the "-u" is so that the next time your push you don't need to type "origin master"
 # put in a username & password
@@ -21,7 +21,7 @@ $ git status # check current status
 $ git add filename
 $ git add . # add all files
 $ git commit -m "message to describe current commit"
-$ git commit -a -m "message" # short-cut to execute the two commands with one command
+$ git commit -a -m "message" # short-cut to execute the two commands with one command. "-a": all.
 $ git add . && git commit -m "message" # short-cut to combine the two commands in one command
 $ git push origin master # update everything from local to online. use "git push -u origin master" at first time as stated above.
 ```
