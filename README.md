@@ -14,6 +14,15 @@ $ git remote add origin https://github.com/quinnliu/GitCommands.git
 $ git push -u origin master						# the "-u" is so that the next time your push you don't need to type "origin master"
 # put in a username & password
 ```
+### Manipulating local repository
+``` sh
+$ cd path/to/working/repository(directory)
+$ git status # check current status
+$ git add filename
+$ git add . # add all files
+$ git commit -m "message to describe current commit"
+$ git add . && git commit -m "message" # short-cut to combine the two commands in one command
+```
 
 ### When adding on to your repository online with changes
 ``` sh
