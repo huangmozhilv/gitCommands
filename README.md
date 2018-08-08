@@ -14,6 +14,10 @@ $ git remote add origin https://github.com/quinnliu/GitCommands.git
 $ git push -u origin master						# the "-u" is so that the next time your push you don't need to type "origin master"
 # put in a username & password
 ```
+### Manipulating remote repository
+``` sh
+$ rm -rf .git # remove git tracking
+```
 ### Manipulating local repository
 ``` sh
 $ cd path/to/working/repository(directory)
@@ -57,7 +61,7 @@ $ git clone git@github.com:yourUsername/yourReponame.git		# same as above
 $ git pull 										# use this after someone else has made a change to the online repo you r working on and you want to make your local repo up to date
 ```
 
-### Want to remove a file frome online github repo but keep it locally
+### Want to remove a file from online github repo but keep it locally
 ``` sh
 $ git rm --cached localFileName
 # add localFileName to .gitignore file 
