@@ -36,7 +36,7 @@ $ git diff commit_id # compare commit_id to current status
 $ git diff commit_id1 commit_id2 # compare commit_id1 to commit_id2
 $ git diff commit_id1 -- the/file/path commit_id2 -- the/file/path # compare file changes between commit_id1 and commit_id2
 
-first git commit on remote
+first "git commit -m ..." on remote
 $ git fetch –all 
 $ git reset --hard origin/master
 
